@@ -10,9 +10,9 @@ y3 = 2 * x + 3
 
 pyplot.figure()
 
-pyplot.plot(x, y1, color="blue", linstyle='-', label="y1")
-pyplot.plot(x, y2, color="red", linestyle='--', label="y2")
-pyplot.plot(x, y3, color="green", linestyle='---', label="y3")
+pyplot.plot(x, y1, color="blue", linestyle='solid', label="y1")
+pyplot.plot(x, y2, color="red", linestyle='dashdot', label="y2")
+pyplot.plot(x, y3, color="green", linestyle='dashed', label="y3")
 
 
 pyplot.title("Comparison of three linear functions")

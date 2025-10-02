@@ -2,7 +2,8 @@ import numpy as np
 import matplotlib.pyplot as pyplot
 import pandas as pd
 
-data = pd.read_csv('weight-height.csv', skiprows=1, names=['x','y'])
+
+data = pd.read_csv(r"C:\AI_With_Python\AI-with-Python\Assignmen-2\weight-height.csv", skiprows=1, names=['x','y'])
 
 height= data['x']
 weight= data['y']

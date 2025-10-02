@@ -4,8 +4,8 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 import numpy as np
 
-data = pd.read_csv("weight-height.csv")
-
+#data = pd.read_csv("weight-height.csv")
+data = pd.read_csv("C:/AI_With_Python/AI-with-Python/Assignment-4/weight-height.csv")
 print(data.head())
 
 X_height = data["Height"].values.reshape(-1, 1)
